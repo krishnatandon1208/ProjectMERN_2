@@ -2,6 +2,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import MainHeader from "./MainHeader";
+import NavLinks from "./NavLinks";
 
 export default function MainNavigation() {
     return (
@@ -15,8 +16,7 @@ export default function MainNavigation() {
                 <Link to="/">Your Places</Link>
             </h1>
             <nav>
-                ...
-                {/* To add nav links later */}
+               <NavLinks />
             </nav>
         </MainHeader>
     )
